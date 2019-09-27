@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <h4> <a href="index.html">돌아오기</a> </h4>
+        <title>000 회원가입</title>
+        <style>
+        #abcd1{
+            font-size: 20px; /*글씨크기*/
+            color: aqua; /*글씨색깔*/
+            text-decoration: underline; /*글씨 꾸밈*/
+            font-weight: bold; /*글씨두께*/
+        }
+            </style>
+    </head>
+     <body> 
+            <h3>회원가입</h3>
+            <img src="images/melon.jpg"></br></br></br></br></br>
+            
+        <form>
+            <label for="id"><b>아이디</b></label>
+            <input name="id" placeholder="아이디를 입력하세요" /><br/><br/>
+
+            <label for="password"><b>비밀번호</b></label>
+            <input name="password" placeholder="비밀번호를 입력하세요" /><br/><br/>
+            <label for="password"><b>비밀번호 확인</b></label>
+            <input name="password" placeholder="비밀번호를 입력하세요" /><br/><br/>
+            <th>비밀번호 힌트/답변</th>
+            <td><select name='pwhint' size='1' class='select'>
+            <option value=''>선택하세요</option>
+            <option value='30'>졸업한 초등학교 이름은?</option>
+            <option value='31'>제일 친한 친구의 핸드폰 번호는?</option>
+            <option value='32'>아버지 성함은?</option>
+            <option value='33'>어머니 성함은?</option>
+            <option value='34'>어릴 적 내 별명은?</option>
+            <option value='35'>가장 아끼는 물건은?</option>
+            <option value='36'>좋아하는 동물은?</option>
+            <option value='37'>좋아하는 색깔은?</option>
+            <option value='38'>좋아하는 음식은?</option>
+          </select>
+          </tr>
+          <tr>
+          </td>
+             <th>답변</th>
+             <td><input type='text' name='pwhintans'></td>
+          </tr>
+               
+        
+    <h4>성별</h4>
+    <label for="name"><b>남</b></label>
+                <input type="radio" name="bt1" />
+
+                <!-- name이 동일 해야함-->
+                <label for="name"><b>여</b></label>
+                <input type="radio" name="bt1" /></br></br>
+                <tr>
+                        <td id="title">생일</td>
+                        <td>
+                            <input type="text" name="birthyy" maxlength="4" placeholder="년(4자)" size="6" >
+                            <select name="birthmm">
+                                <option value="">월</option>
+                                <option value="01" >1</option>
+                                <option value="02" >2</option>
+                                <option value="03" >3</option>
+                                <option value="04" >4</option>
+                                <option value="05" >5</option>
+                                <option value="06" >6</option>
+                                <option value="07" >7</option>
+                                <option value="08" >8</option>
+                                <option value="09" >9</option>
+                                <option value="10" >10</option>
+                                <option value="11" >11</option>
+                                <option value="12" >12</option>
+                            </select>
+                            <input type="text" name="birthdd" maxlength="2" placeholder="일" size="4" >
+                        </td>
+                    </tr></br></br>
+   
+                <tr>
+                        <th>이메일</th>
+                        <td>
+                          <input type='text' name="email">@
+                          <input type='text' name="email_dns">
+                            <select name="emailaddr">
+                               <option value="">직접입력</option>
+                               <option value="daum.net">daum.net</option>
+                               <option value="empal.com">empal.com</option>
+                               <option value="gmail.com">gmail.com</option>
+                               <option value="hanmail.net">hanmail.net</option>
+                               <option value="msn.com">msn.com</option>
+                               <option value="naver.com">naver.com</option>
+                               <option value="nate.com">nate.com</option>
+                            </select>
+                          </td>
+                       </tr></br></br>
+                       <tr>
+                            <td id="title">휴대전화</td>
+                            <td>
+                                <input type="text" name="phone" />
+                            </td>
+                        </tr></br></br>
+                        <tr>
+                            <td id="title">주소</td>
+                            <td>
+                                <input type="text" size="50" name="address"/>
+                            </td>
+                        </tr></br></br>
+    
+           
+
+            <label for="id"><b>마케팅 수신동의(선택)</b></label></br></br>
+        
+    
+                <input type="checkbox" />
+                <label for="id">SNS</label>
+                <input type="checkbox" />
+                <label for="id">이메일</label>
+                <input type="checkbox" />
+                <label for="id">우편</label>
+                <input type="checkbox" />
+                <label for="id">문자</label></br></br></br>
+
+    
+               
+                <!-- 가로 3글자, 세로 5줄 정도의 크기 -->
+                 <label for="id"><b>가입동기를 입력해주세요</b></label></br>
+                <textarea cols="40" raws="100">
+                       
+        
+    
+                </textarea>
+    
+                <input type="button" value="제출" /></br>
+                <input type="button" value="회원가입" onclick="alert('회원가입이 완료되었습니다.')" />
+    
+    
+    
+    
+            </form>        
+    
+     </body>
+</html>
